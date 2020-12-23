@@ -158,6 +158,9 @@ if (header.categories_list) {
       </div>
 
       <div class="order-lg-last col-auto p-0">
+        <div class="d-none d-md-inline">
+          <strong id="nameIf"></strong>
+        </div>
         <div
           class="header__buttons"
           role="group"
@@ -177,14 +180,19 @@ if (header.categories_list) {
             <i class="fas fa-search"></i>
           </button>
 
+          <a style="font-size: 1rem; color: #000" class="d-none d-md-inline btn btn-lg" href="/app/#/account/orders">Meus pedidos</a>
+          <span style="color: #000" class="d-none d-md-inline">|</span>
+
           <a
             id="user-button"
             class="btn btn-lg"
             role="button"
             href="/app/#/account/"
+            style="font-size: 1rem"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="fas fa-user"></i>
+          <span class="d-none d-md-inline" style="color: #000">Minha conta</span>
+        <span class="d-md-none"><i class="fas fa-user"></i></span>
           </a>
           <a
             id="cart-button"
@@ -193,7 +201,7 @@ if (header.categories_list) {
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="fas fa-shopping-bag"></i>
+            <img src="/img/uploads/3.png" alt="Sacola de pedidos">
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -264,18 +272,17 @@ if (header.categories_list) {
           <% } %>
         </div>
       <% } %>
-
-      <% if (categories && categories.length) { %>
-        <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-          <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name }) => { %>
-              <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-                <%= ` ${name} ` %>
-              </a>
-            <% }) %>
-          </nav>
-        </div>
-      <% } %>
     </div>
   </div>
+  <% if (categories && categories.length) { %>
+    <div id="menu-horizontal" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
+      <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+        <% categories.forEach(({ slug, name }) => { %>
+          <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+            <%= ` ${name} ` %>
+          </a>
+        <% }) %>
+      </nav>
+    </div>
+  <% } %>
 </header>
