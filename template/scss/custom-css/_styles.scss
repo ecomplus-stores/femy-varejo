@@ -1,1 +1,14 @@
 // Add your custom CSS here.
+.top-bar {
+  &__countdown {
+  background: #854f41 !important;
+  text-transform: uppercase;
+  }
+  &__nav {
+    display: none !important;
+  }
+}
+
+.header {
+  background: #fcf1f1;
+}

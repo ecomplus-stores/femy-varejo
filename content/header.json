@@ -1,21 +1,13 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
-    "link": "/promotion"
+    "text": "Seja uma revendedora Femy. Solicite seu cadastro",
+    "link": "/"
   },
   "contacts_stripe": {
     "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
     ],
-    "phone_wpp": true,
-    "socials": true
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
     "featured": [],
