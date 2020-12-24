@@ -152,45 +152,26 @@
     content: "Antes de comprar, confira nossa tabela de medidas"
   }
 }
-#guides {
-  & a {
-    border: 1px solid;
-    padding: 7px;
-    text-transform: uppercase;
-    width: 50%;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#modal-patch-guide {
-  @media(max-width: 480px) {
-    .modal-dialog {
-      max-width: 100%;
-      width: 100%;
-      margin: 0;
-      margin-top: 4rem !important;
-    }
-    .modal-header {
-      display: none !important;
-    }
-    .modal-body {
-      padding: 0;
-    }
-    #close-mobile {
-     display: flex !important;
-     align-items: center;
-     justify-content: flex-end;
-    }
-  }
+.confira-medidas {
+  padding: .2rem 1rem 0.2rem 1rem;
+  background: #EE0642;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 2rem;
 
-  img {
-    max-width: 100%;
+}
+#page-products {
+  scroll-behavior: smooth;
+}
+.footer {
+  background: #675561;
+  border-top: none;
+  & * {
+    color: #fff;
   }
-  .modal-body {
-    vertical-align: middle;
-    text-align: center;
-  }
+}
+.ecom-credits {
+  display: flex;
+  text-align: left;
+  justify-content: center;
 }

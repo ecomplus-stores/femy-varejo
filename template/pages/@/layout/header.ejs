@@ -274,15 +274,15 @@ if (header.categories_list) {
       <% } %>
     </div>
   </div>
-  <% if (categories && categories.length) { %>
-    <div id="menu-horizontal" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-      <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-        <% categories.forEach(({ slug, name }) => { %>
-          <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-            <%= ` ${name} ` %>
-          </a>
-        <% }) %>
-      </nav>
-    </div>
-  <% } %>
 </header>
+<% if (categories && categories.length) { %>
+  <div id="menu-horizontal" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
+    <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+      <% categories.forEach(({ slug, name }) => { %>
+        <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+          <%= ` ${name} ` %>
+        </a>
+      <% }) %>
+    </nav>
+  </div>
+<% } %>

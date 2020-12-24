@@ -27,9 +27,8 @@
       "page": 1
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+      "type": "custom-html",
+      "html": "<script src=\"https://www.sowecms.com/demos/InstagramFeed/dist/InstagramFeed.min.js\"></script>\n<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/femyoficial/\" target=\"_blank\"> @FEMYOFICIAL</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n<script>\n    (function(){\n        new InstagramFeed({\n            'username': 'femyoficial',\n            'container': document.getElementById(\"instagram-feed\"),\n            'display_profile': false,\n            'display_biography': false,\n            'display_igtv': false,\n            'display_gallery': true,\n            'get_raw_json': false,\n            'callback': null,\n            'styling': true,\n            'items': 3,\n            'items_per_row': 3,\n            'margin': 1 \n        });\n    })();\n</script>"
     }
   ]
 }
