@@ -1,22 +1,23 @@
 {
-  "store_id": 1188,
-  "name": "femy",
   "domain": "femy-varejo.netlify.app",
-  "short_name": "femy",
-  "description": "femy",
+  "currency_symbol": "R$",
   "primary_color": "#313131",
-  "secondary_color": "#e36159",
-  "bg_color": "#fff",
   "theme": {
-    "bootswatch": "_"
+    "bootswatch": "_",
+    "custom": "_"
   },
+  "bg_color": "#fff",
   "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "name": "Femy Moda Feminina",
+  "short_name": "Femy Moda Feminina",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#e36159",
+  "icon": "/img/icon.png",
+  "store_id": 1188,
+  "description": "femy",
+  "large_icon": "/img/large-icon.png"
 }
