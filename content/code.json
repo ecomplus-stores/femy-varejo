@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');\n\n#header{\n background: white !important;\n padding-bottom: 10px !important;\n}\n\n#menu-horizontal{\n  padding: 15px !important;\n  font-family: 'Roboto Condensed', sans-serif;\n}\n.header__nav a{\n  border-radius: 0px !important;\n  \n}\n.header__nav a:hover {\n    background: #854f41;\n    text-decoration: none;\n    border-radius: 0px !important;\n    color: white;\n    padding: 7px;\n}\n\n@media (min-width: 768px)\n.header__search-input {\n\n  border-radius: 0px !important;\n  border: 1px solid #854f41;\n\n}\n\n#user-button > span.d-none.d-md-inline , .header__buttons .btn{\ntext-transform: uppercase;\n    color: #854f41 !important;\n    font-weight: 600;\n}\n",
   "html_head": "",
   "html_body": ""
 }
