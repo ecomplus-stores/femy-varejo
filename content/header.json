@@ -1,11 +1,10 @@
 {
   "marketing_stripe": {
-    "text": "Seja uma revendedora Femy. Solicite seu cadastro",
-    "link": "/"
+    "text": "QUER COMPRAR NO ATACADO? CLIQUE AQUI",
+    "link": "https://atacado.femy.com.br/"
   },
   "contacts_stripe": {
-    "pages": [
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   },
