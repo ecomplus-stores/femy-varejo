@@ -9,20 +9,20 @@
       "enabled": true
     },
     {
-      "type": "related-products",
-      "title": "ALGUNS MODELOS LINDOS PARA VOCÊ"
-    },
-    {
-      "type": "recommended-products",
-      "title": "APROVEITE PARA COMPRAR ESSES TAMBÉM"
-    },
-    {
       "type": "product-description",
       "enabled": true
     },
     {
       "type": "product-specifications",
       "enabled": true
+    },
+    {
+      "type": "related-products",
+      "title": "ALGUNS MODELOS LINDOS PARA VOCÊ"
+    },
+    {
+      "type": "recommended-products",
+      "title": "APROVEITE PARA COMPRAR ESSES TAMBÉM"
     }
   ]
 }
