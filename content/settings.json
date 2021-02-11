@@ -1,12 +1,12 @@
 {
   "domain": "femy-varejo.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#313131",
+  "primary_color": "#855042",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
   },
-  "bg_color": "#fff",
+  "bg_color": "#675562",
   "logo": "/img/uploads/logo.png",
   "name": "Femy Moda Feminina",
   "short_name": "Femy Moda Feminina",
@@ -15,7 +15,7 @@
   "mini_logo": "",
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "secondary_color": "#e36159",
+  "secondary_color": "#675562",
   "icon": "/img/icon.png",
   "store_id": 1188,
   "description": "femy",
