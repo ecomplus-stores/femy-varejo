@@ -7,11 +7,18 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/banner.png",
+          "img": "/img/uploads/femy_banner_desktop_frete_gratis-1-.png",
           "link": "/",
           "alt": "",
           "start": "",
-          "end": ""
+          "end": "",
+          "mobile_img": "/img/uploads/femy_banner_mobile_frete_gratis-1-.png"
+        },
+        {
+          "start": "2021-03-03T18:58:30.650Z",
+          "end": "2021-03-03T18:58:30.673Z",
+          "img": "https://trello-attachments.s3.amazonaws.com/5f73400f11f7780f45bbd8b1/603517eb8624ee710183f704/e17fcc055945a6e8e61a66c5bf2c7f13/FEMY_Banner_Desktop_PIX.png",
+          "mobile_img": "https://trello-attachments.s3.amazonaws.com/603517eb8624ee710183f704/800x940/895ea487ca2bf089e0bf789e10d0c086/FEMY_Banner_Mobile_PIX.png"
         }
       ]
     },
