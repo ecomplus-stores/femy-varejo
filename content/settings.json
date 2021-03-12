@@ -1,5 +1,5 @@
 {
-  "domain": "femy-varejo.netlify.app",
+  "domain": "femy.com.br",
   "currency_symbol": "R$",
   "primary_color": "#855042",
   "theme": {
@@ -18,6 +18,6 @@
   "secondary_color": "#675562",
   "icon": "/img/uploads/favicon.jpg",
   "store_id": 1188,
-  "description": "femy",
+  "description": "A moda faz parte da expressão da identidade feminina. Acompanha o tempo, o contexto, se transforma seguindo os passos da sociedade. Assim como a moda, a Femy se transformou, sem perder sua essência. Produzindo roupas evangélicas desde 2001, a marca vem crescendo e amadurecendo levando para a mulher contemporânea e cheia de estilo produtos com o que há de mais novo e autêntico no mercado de moda com qualidade, diversificação e sofisticação.",
   "large_icon": "/img/uploads/favicon.jpg"
 }
