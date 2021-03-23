@@ -37,7 +37,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/femyoficial/\" target=\"_blank\"> @FEMYOFICIAL</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n<div class=\"elfsight-app-9f9becde-7bf5-40c0-a7a3-1c2045fa74aa\"></div>"
+      "html": "<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/femyoficial/\" target=\"_blank\"> @FEMYOFICIAL</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n"
     }
   ]
 }
