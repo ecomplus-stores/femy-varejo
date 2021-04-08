@@ -17,12 +17,13 @@
       "enabled": true
     },
     {
-      "type": "related-products",
-      "title": "Combinadinhos para você renovar o look"
-    },
-    {
-      "type": "recommended-products",
-      "title": "Outros modelos para você escolher"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "5fe35d7a69274c73fcec4868:categories:Vestidos:/vestidos",
+      "sort": "news",
+      "title": "ÚLTIMOS LANÇAMENTOS EM NOSSA LOJA"
     }
   ]
 }
