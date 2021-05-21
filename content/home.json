@@ -14,6 +14,13 @@
           "link": "https://femy.com.br/colecao-momentos"
         },
         {
+          "start": "2021-05-21T13:43:56.680Z",
+          "end": "",
+          "img": "/img/uploads/banner-computador-viscaya-01-1-.jpg",
+          "mobile_img": "/img/uploads/banner-celular-01.jpg",
+          "link": "https://femy.com.br/colecao-simplifique"
+        },
+        {
           "start": "2021-03-03T18:58:30.650Z",
           "end": "",
           "img": "/img/uploads/femy-varejo-2-desk.jpeg",
@@ -24,13 +31,6 @@
           "end": "",
           "img": "/img/uploads/femy_banner_desktop_frete_gratis-1-.png",
           "mobile_img": "/img/uploads/femy_banner_mobile_frete_gratis-1-.png"
-        },
-        {
-          "start": "2021-05-21T13:43:56.680Z",
-          "end": "",
-          "img": "/img/uploads/banner-computador-viscaya-01-1-.jpg",
-          "mobile_img": "/img/uploads/banner-celular-01.jpg",
-          "link": "https://femy.com.br/colecao-simplifique"
         }
       ]
     },
