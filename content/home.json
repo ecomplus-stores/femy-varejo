@@ -7,30 +7,18 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-04-22T18:17:02.973Z",
+          "start": "2021-08-16T12:19:34.187Z",
           "end": "",
-          "img": "/img/uploads/banner-pc-01-min.png",
-          "mobile_img": "/img/uploads/banner-celular-01-min.png",
-          "link": "https://femy.com.br/colecao-amar"
+          "img": "/img/uploads/banner-vestida-de-felicidade-site.png",
+          "mobile_img": "/img/uploads/banner-vestida-de-felicidade-cel.png",
+          "link": "https://femy.com.br/viscaya?"
         },
         {
-          "start": "2021-05-21T13:43:56.680Z",
+          "start": "2021-08-16T12:20:39.856Z",
           "end": "",
-          "img": "/img/uploads/banner-pc-01-1-novo.png",
-          "mobile_img": "/img/uploads/banner-celular-01-novo.png",
-          "link": "https://femy.com.br/colecao-respiro"
-        },
-        {
-          "start": "2021-03-03T18:58:30.650Z",
-          "end": "",
-          "img": "/img/uploads/femy-varejo-2-desk.jpeg",
-          "mobile_img": "/img/uploads/femy-varejo-2.jpeg"
-        },
-        {
-          "start": "2021-04-08T20:02:00.402Z",
-          "end": "",
-          "img": "/img/uploads/femy_banner_desktop_frete_gratis-1-.png",
-          "mobile_img": "/img/uploads/femy_banner_mobile_frete_gratis-1-.png"
+          "img": "/img/uploads/banner-femy-site.png",
+          "mobile_img": "/img/uploads/banner-femy-cel.png",
+          "link": "https://femy.com.br/femy-moda-feminina?"
         }
       ]
     },
