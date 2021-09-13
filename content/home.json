@@ -36,6 +36,24 @@
       "sort": "news"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "60490c1ba735d032cbb76319:categories:Viscaya:/viscaya",
+      "sort": "news",
+      "title": "A MELHOR SELEÇÃO DA VISCAYA"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "60490c0da735d032cbb762ec:categories:Femy:/femy-moda-feminina",
+      "sort": "sales",
+      "title": "OS MAIS VENDIDOS DA FEMY"
+    },
+    {
       "type": "custom-html",
       "html": "<span style=\"display: flex; justify-content: center\">SIGA NOSSO INSTAGRAM <a href=\"https://www.instagram.com/femyoficial/\" target=\"_blank\"> @FEMYOFICIAL</a></span><div id=\"instagram-feed\" class=\"instagram_feed\"></div>\n"
     }
