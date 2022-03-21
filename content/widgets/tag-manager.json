@@ -4,7 +4,7 @@
   "desktopOnly": false,
   "enableCheckout": true,
   "options": {
-    "gtmContainerId": " GTM-NFBM5K5",
+    "gtmContainerId": "GTM-NFBM5K5",
     "dataLayerVar": "dataLayer"
   },
   "headAppend": "src/append/head",
