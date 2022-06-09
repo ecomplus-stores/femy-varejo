@@ -31,14 +31,14 @@ jobs:
         id: remote_repo
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '12.x'
+          node-version: '14.x'
 
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -134,6 +134,7 @@ jobs:
       - name: Setup output directory to deploy
         run: |
           mkdir -p .deploy/publish
+          cp .nvmrc .deploy/ 2>/dev/null || :
           cp -r dist/* .deploy/publish/
           rm -rf .deploy/publish/netlify.toml
           cp -r .netlify/* .deploy/
