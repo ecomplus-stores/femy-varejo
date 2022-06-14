@@ -16,11 +16,12 @@
         {
           "start": "2021-08-16T12:19:34.187Z",
           "end": "",
-          "img": "/img/uploads/banner-ecommerce.png",
-          "mobile_img": "/img/uploads/banner-mobile.png",
+          "img": "/img/uploads/banner-site-viscaya-junho.png",
+          "mobile_img": "/img/uploads/banner-viscaya-junho.png",
           "link": "https://femy.com.br/viscaya"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
       "type": "info-bar",
