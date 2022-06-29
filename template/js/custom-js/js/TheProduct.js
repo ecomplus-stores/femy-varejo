@@ -4,16 +4,13 @@ import {
     i19close,
     i19days,
     i19discountOf,
-    i19endsIn,
     i19freeShippingFrom,
     i19loadProductErrorMsg,
-    i19offer,
     i19only,
     i19outOfStock,
     i19paymentOptions,
     i19perUnit,
     i19productionDeadline,
-    i19removeFromFavorites,
     i19retry,
     i19selectVariationMsg,
     i19unavailable,
@@ -169,10 +166,10 @@ import {
       i19close: () => i18n(i19close),
       i19days: () => i18n(i19days),
       i19discountOf: () => i18n(i19discountOf),
-      i19endsIn: () => i18n(i19endsIn),
+      i19endsIn: () => 'Termina em',
       i19freeShippingFrom: () => i18n(i19freeShippingFrom),
       i19loadProductErrorMsg: () => i18n(i19loadProductErrorMsg),
-      i19offer: () => i18n(i19offer),
+      i19offer: () => 'Oferta',
       i19only: () => i18n(i19only),
       i19outOfStock: () => i18n(i19outOfStock),
       i19paymentOptions: () => i18n(i19paymentOptions),
@@ -232,18 +229,30 @@ import {
       discount () {
         const { body } = this
         const priceValue = this.fixedPrice || getPrice(body)
+        const basePrice = body.base_price || body.price
         return checkOnPromotion(body) || (body.price > priceValue)
-          ? Math.round(((body.base_price - priceValue) * 100) / body.base_price)
+          ? Math.round(((basePrice - priceValue) * 100) / basePrice)
           : 0
       },
   
-      isOnSale () {
+      mockNewPromoDate () {
         const { body } = this
+        const newPromoDate = { ...body }
+        const tomorrow = new Date(new Date().getTime() + 86400000).setHours(0, 0, 0, 0)
+        newPromoDate.price_effective_date = {}
+        newPromoDate.price_effective_date.end = new Date(tomorrow).toISOString()
+        console.log(newPromoDate)
+        console.log(checkOnPromotion(newPromoDate))
+        return newPromoDate
+      },
+  
+      isOnSale () {
+        const { mockNewPromoDate } = this
         return this.hasPromotionTimer &&
-          checkOnPromotion(body) &&
-          body.price_effective_date &&
-          body.price_effective_date.end &&
-          Date.now() < new Date(body.price_effective_date.end).getTime()
+          (checkOnPromotion(mockNewPromoDate) || this.body.price > this.fixedPrice) &&
+          mockNewPromoDate.price_effective_date &&
+          mockNewPromoDate.price_effective_date.end &&
+          Date.now() < new Date(mockNewPromoDate.price_effective_date.end).getTime()
       },
   
       ghostProductForPrices () {
@@ -555,7 +564,7 @@ import {
         setStickyBuyObserver()
       }
       if (this.isOnSale) {
-        const promotionDate = new Date(this.body.price_effective_date.end)
+        const promotionDate = new Date(this.mockNewPromoDate.price_effective_date.end)
         const now = Date.now()
         if (promotionDate.getTime() > now) {
           let targetDate
