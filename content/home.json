@@ -7,18 +7,11 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-08-16T12:20:39.856Z",
+          "start": "2023-01-10T10:25:00.751Z",
           "end": "",
-          "img": "/img/uploads/banner-especial-festas.png",
-          "mobile_img": "/img/uploads/banner-dezembro-femy-2-.png",
-          "link": "https://femy.com.br/colecao-especial-festas"
-        },
-        {
-          "start": "2022-10-11T19:04:56.933Z",
-          "end": "",
-          "img": "/img/uploads/banner-viscaya-dezembro.jpg",
-          "mobile_img": "/img/uploads/banner-viscaya-dezembro-mobile.jpg",
-          "link": "https://femy.com.br/colecao-celebration"
+          "img": "/img/uploads/banner-f-v-janeiro.png",
+          "mobile_img": "/img/uploads/banner-mobile-f-v-janeiro.png",
+          "link": "https://femy.com.br/colecao-collab-femmy--viscaya"
         }
       ],
       "full_width": true
