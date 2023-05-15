@@ -12,6 +12,13 @@
           "img": "/img/uploads/bannermaio.png",
           "mobile_img": "/img/uploads/bannermaiomobile.png",
           "link": "https://femy.com.br/colecao-chic"
+        },
+        {
+          "start": "2023-05-15T13:17:12.458Z",
+          "end": "",
+          "img": "/img/uploads/viscaya-site.png",
+          "mobile_img": "/img/uploads/viscaya-mobile.png",
+          "link": "https://femy.com.br/colecao-special-winter"
         }
       ],
       "full_width": true
