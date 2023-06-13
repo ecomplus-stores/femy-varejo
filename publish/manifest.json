@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.080bfacbc3f1078e6e81506a3e47668a.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_384x384.49282e2cc4187305b0ad572f0eca5f31.jpeg",
+      "sizes": "384x384",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_192x192.c5c4e08fbb79b14469033c27fe0613c9.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_128x128.b4957313138156852a30d9e3be1d5de8.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_96x96.bd9ddf79be05bb4f078fce6384aff5d6.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    }
+  ],
+  "name": "Femy Moda Feminina",
+  "short_name": "Femy Moda Feminina",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A moda faz parte da expressão da identidade feminina. Acompanha o tempo, o contexto, se transforma seguindo os passos da sociedade. Assim como a moda, a Femy se transformou, sem perder sua essência. Produzindo roupas evangélicas desde 2001, a marca vem crescendo e amadurecendo levando para a mulher contemporânea e cheia de estilo produtos com o que há de mais novo e autêntico no mercado de moda com qualidade, diversificação e sofisticação.",
+  "background_color": "#675562",
+  "theme_color": "#855042"
+}
