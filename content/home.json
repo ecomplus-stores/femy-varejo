@@ -7,18 +7,18 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2023-02-07T14:03:39.423Z",
-          "end": "",
-          "img": "/img/uploads/banner-femy-julho-1-.png",
-          "mobile_img": "/img/uploads/banner-mobile-femy-julho-1-.png",
-          "link": "https://femy.com.br/colecao-belo-verao"
-        },
-        {
           "start": "2023-05-15T13:17:12.458Z",
           "end": "",
           "img": "/img/uploads/banner-viscaya-julho.png",
           "mobile_img": "/img/uploads/banner-mobile-viscaya.png",
           "link": "https://femy.com.br/colecao-pink-glam"
+        },
+        {
+          "start": "2023-07-17T14:00:57.935Z",
+          "end": "2023-07-17T14:00:57.952Z",
+          "img": "/img/uploads/banner-femy-julho-1-.png",
+          "mobile_img": "/img/uploads/banner-mobile-femy-julho.png",
+          "link": "https://femy.com.br/colecao-amore"
         }
       ],
       "full_width": true
