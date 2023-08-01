@@ -19,6 +19,13 @@
           "img": "/img/uploads/banner-femy-julho-1-.png",
           "mobile_img": "/img/uploads/banner-mobile-femy-julho.png",
           "link": "https://femy.com.br/colecao-amore"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-do-site.png",
+          "mobile_img": "/img/uploads/mobile-julho2.png",
+          "link": "https://femy.com.br/colecao-novo-basico"
         }
       ],
       "full_width": true
