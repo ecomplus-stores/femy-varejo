@@ -7,13 +7,6 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-viscaya-julho.png",
-          "mobile_img": "/img/uploads/banner-mobile-viscaya.png",
-          "link": "https://femy.com.br/colecao-pink-glam"
-        },
-        {
           "start": "2023-07-17T14:00:57.935Z",
           "end": "",
           "img": "/img/uploads/cbanner-do-site-femy-agosto..png",
@@ -26,6 +19,13 @@
           "img": "/img/uploads/banner-do-site.png",
           "mobile_img": "/img/uploads/mobile-julho2.png",
           "link": "https://femy.com.br/colecao-novo-basico"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-viscaya-julho.png",
+          "mobile_img": "/img/uploads/banner-mobile-viscaya.png",
+          "link": "https://femy.com.br/colecao-pink-glam"
         }
       ],
       "full_width": true
