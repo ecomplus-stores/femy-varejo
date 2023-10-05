@@ -7,25 +7,25 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2023-07-17T14:00:57.935Z",
-          "end": "",
-          "img": "/img/uploads/banner-femy-setembro.png",
-          "mobile_img": "/img/uploads/banner-femy-mobile-setembro-1-.png",
-          "link": "https://femy.com.br/colecao-primavera"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-do-site.png",
-          "mobile_img": "/img/uploads/mobile-julho2.png",
-          "link": "https://femy.com.br/colecao-novo-basico"
-        },
-        {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-agosto-viscaya-min.png",
           "mobile_img": "/img/uploads/banner-mobile-viscaya-agosto-min.png",
           "link": "https://femy.com.br/colecao-sonho-de-verao"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/32.png",
+          "link": "https://femy.com.br/vestido-viscolinho-com-bordado---5158",
+          "mobile_img": "/img/uploads/banner-mobile-femy-out.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/33.png",
+          "link": "https://femy.com.br/vestido-viscolinho-com-bordado---5158",
+          "mobile_img": "/img/uploads/banner-mobile-femy-out.png"
         }
       ],
       "full_width": true
