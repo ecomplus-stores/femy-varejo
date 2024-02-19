@@ -19,6 +19,13 @@
           "img": "/img/uploads/banner-femy-fev.png",
           "mobile_img": "/img/uploads/banner-site-mobile-2-.png",
           "link": "https://femy.com.br/colecao-poesia-alto-verao"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-do-site-viscaya.png",
+          "mobile_img": "/img/uploads/banner-site-mobile-3-.png",
+          "link": "https://femy.com.br/colecao-poesia-alto-verao-viscaya"
         }
       ],
       "full_width": true
