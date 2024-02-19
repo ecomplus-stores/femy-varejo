@@ -7,25 +7,18 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-femy.png",
-          "link": "https://femy.com.br/colecao-resort-alto-verao",
-          "mobile_img": "/img/uploads/36.png"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/5.png",
-          "mobile_img": "/img/uploads/37.png",
-          "link": "https://femy.com.br/colecao-resort-alto-verao-viscaya"
-        },
-        {
           "start": "2024-01-15T19:42:39.315Z",
           "end": "",
           "img": "/img/uploads/banner-basic-1-.png",
           "link": "https://femy.com.br/linha-basic",
           "mobile_img": "/img/uploads/banner-mobile-basic-1-.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-femy-fev.png",
+          "mobile_img": "/img/uploads/banner-site-mobile-2-.png",
+          "link": "https://femy.com.br/colecao-poesia-alto-verao"
         }
       ],
       "full_width": true
