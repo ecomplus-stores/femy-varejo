@@ -7,18 +7,11 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2024-01-15T19:42:39.315Z",
-          "end": "",
-          "img": "/img/uploads/banner-basic-1-.png",
-          "link": "https://femy.com.br/linha-basic",
-          "mobile_img": "/img/uploads/banner-mobile-basic-1-.png"
-        },
-        {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-femy-fev.png",
-          "mobile_img": "/img/uploads/banner-site-mobile-2-.png",
-          "link": "https://femy.com.br/colecao-poesia-alto-verao"
+          "img": "/img/uploads/banner-do-site-femy.png",
+          "mobile_img": "/img/uploads/41.png",
+          "link": "https://femy.com.br/colecao-mulheres-femy"
         },
         {
           "start": "",
@@ -26,6 +19,13 @@
           "img": "/img/uploads/banner-do-site-viscaya.png",
           "mobile_img": "/img/uploads/banner-site-mobile-3-.png",
           "link": "https://femy.com.br/colecao-poesia-alto-verao-viscaya"
+        },
+        {
+          "start": "2024-01-15T19:42:39.315Z",
+          "end": "",
+          "img": "/img/uploads/banner-basic-1-.png",
+          "link": "https://femy.com.br/linha-basic",
+          "mobile_img": "/img/uploads/banner-mobile-basic-1-.png"
         }
       ],
       "full_width": true
