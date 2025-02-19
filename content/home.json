@@ -11,14 +11,14 @@
           "end": "",
           "img": "/img/uploads/estilo-chic.png",
           "mobile_img": "/img/uploads/img_3233.png",
-          "link": "https://femy.com.br/femy-moda-feminina"
+          "link": "/femy-moda-feminina"
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/img_3231.png",
           "mobile_img": "/img/uploads/img_3232.png",
-          "link": "https://femy.com.br/viscaya"
+          "link": "/viscaya"
         }
       ],
       "full_width": true
