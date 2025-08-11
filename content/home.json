@@ -41,7 +41,7 @@
       "shuffle": false,
       "limit": 24,
       "page": 1,
-      "collection_id": "68431fe2578b5f7954353b37:categories:Coleção Tramas de Inverno:/colecao-tramas-de-inverno",
+      "collection_id": "60490c1ba735d032cbb76319:categories:Viscaya:/viscaya",
       "sort": "news",
       "title": "A MELHOR SELEÇÃO DA VISCAYA"
     },
@@ -50,9 +50,9 @@
       "shuffle": false,
       "limit": 24,
       "page": 1,
-      "collection_id": "60490c0da735d032cbb762ec:categories:Femy:/femy-moda-feminina",
-      "sort": "sales",
-      "title": "OS MAIS VENDIDOS DA FEMY"
+      "collection_id": null,
+      "sort": "news",
+      "title": "OS MAIS VENDIDOS DA NOSSA LOJA"
     },
     {
       "type": "custom-html",
