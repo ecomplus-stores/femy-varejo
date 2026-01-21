@@ -9,7 +9,8 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/desktop.png"
+          "img": "/img/uploads/desktop.png",
+          "mobile_img": "/img/uploads/mobile_easy-resize.com.jpg"
         }
       ],
       "full_width": true
