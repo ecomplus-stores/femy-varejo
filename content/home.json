@@ -9,16 +9,7 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/classic-.png",
-          "mobile_img": "/img/uploads/viscaya.png",
-          "link": "/femy-moda-feminina"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/capa-desktop-viscaya-celebre-drop-2.png",
-          "mobile_img": "/img/uploads/capa-mobile-viscaya-celebre-drop-2.png",
-          "link": "/viscaya"
+          "img": "/img/uploads/desktop.png"
         }
       ],
       "full_width": true
